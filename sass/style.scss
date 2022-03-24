@@ -39,3 +39,34 @@ body{
 
     }
 }
+
+// NEWSLETTER
+
+
+// BOXES
+.bg-for-cards{
+    background: $primary;
+}
+
+
+
+
+// MEDIA QUERIES
+@media(max-width: 991px){
+    #showcase{
+        min-height: 500px;
+    }
+}
+@media(max-width: 768px){
+    #showcase{
+        min-height: 500px;
+
+        h1{
+            font-size: 2rem;
+        }
+    }
+
+    .mb-resp{
+        margin-bottom: 1rem;
+    }
+}
