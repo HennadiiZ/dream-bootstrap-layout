@@ -37,9 +37,25 @@ body {
   background: #3292a6;
 }
 
+#author .card-body img {
+  margin-top: -4.5rem;
+}
+#author .card-body:hover {
+  background: #3292a6;
+  color: white;
+}
+
 @media (max-width: 991px) {
   #showcase {
     min-height: 500px;
+  }
+
+  .mb-resp-card {
+    margin-bottom: 1rem;
+  }
+
+  .mb-resp-author-card.upper-cards {
+    margin-bottom: 5rem;
   }
 }
 @media (max-width: 768px) {
@@ -52,5 +68,13 @@ body {
 
   .mb-resp {
     margin-bottom: 1rem;
+  }
+
+  .mb-resp-card {
+    margin-bottom: 0;
+  }
+
+  .mb-resp-author-card {
+    margin-bottom: 5rem;
   }
 }
