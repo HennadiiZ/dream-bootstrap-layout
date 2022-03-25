@@ -45,6 +45,10 @@ body {
   color: white;
 }
 
+#main-footer {
+  background: #3292a6;
+}
+
 @media (max-width: 991px) {
   #showcase {
     min-height: 500px;
